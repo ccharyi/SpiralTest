@@ -1,3 +1,3 @@
-# SwingTest
-consolidation of cmsc436 groups swing tests
+# Spiral Test
+consolidation of cmsc436 groups Spiral tests
 AHHHHHH
