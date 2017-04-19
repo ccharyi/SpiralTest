@@ -1,3 +1,23 @@
 <resources>
     <string name="app_name">SwingTest</string>
+    <string name="team1">Team 1</string>
+    <string name="team2">Team 2</string>
+    <string name="team3">Team 3</string>
+    <string name="team4">Team 4</string>
+    <string name="team5">Team 5</string>
+    <string name="team6">Team 6</string>
+    <string name="team7">Team 7</string>
+    <string name="team8">Team 8</string>
+    <string name="team9">Team 9</string>
+    <string name="team10">Team 10</string>
+    <string name="team11">Team 11</string>
+    <string name="team12">Team 12</string>
+    <string name="team13">Team 13</string>
+    <string name="team14">Team 14</string>
+    <string name="team15">Team 15</string>
+    <string name="team16">Team 16</string>
+    <string name="team17">Team 17</string>
+    <string name="team18">Team 18</string>
+    <string name="team19">Team 19</string>
+
 </resources>

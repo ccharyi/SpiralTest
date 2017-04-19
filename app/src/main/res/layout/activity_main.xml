@@ -1,18 +1,179 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.swingtest.MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        <Button
+            android:text="Team 1"
+            android:textSize="10pt"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_weight="0.05"
+            android:id="@+id/team1"
+            />
+        <Button
+            android:text="Team 2"
+            android:textSize="10pt"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_weight="0.05"
+            android:id="@+id/team2"
+            />
+        <Button
+            android:text="Team 3"
+            android:textSize="10pt"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_weight="0.05"
+            android:id="@+id/team3"
+            />
+        <Button
+            android:text="Team 4"
+            android:textSize="10pt"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_weight="0.05"
+            android:id="@+id/team4"
+            />
+        <Button
+            android:text="Team 5"
+            android:textSize="10pt"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_weight="0.05"
+            android:id="@+id/team5"
+            />
+        <Button
+            android:text="Team 6"
+            android:textSize="10pt"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_weight="0.05"
+            android:id="@+id/team6"
+            />
+        <Button
+            android:text="Team 7"
+            android:textSize="10pt"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_weight="0.05"
+            android:id="@+id/team7"
+            />
+        <Button
+            android:text="Team 8"
+            android:textSize="10pt"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_weight="0.05"
+            android:id="@+id/team8"
+            />
+        <Button
+            android:text="Team 8"
+            android:textSize="10pt"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_weight="0.05"
+            android:id="@+id/team8"
+            />
+        <Button
+            android:text="Team 9"
+            android:textSize="10pt"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_weight="0.05"
+            android:id="@+id/team9"
+            />
+        <Button
+            android:text="Team 10"
+            android:textSize="10pt"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_weight="0.05"
+            android:id="@+id/team10"
+            />
+        <Button
+            android:text="Team 11"
+            android:textSize="10pt"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_weight="0.05"
+            android:id="@+id/team11"
+            />
+        <Button
+            android:text="Team 12"
+            android:textSize="10pt"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_weight="0.05"
+            android:id="@+id/team12"
+            />
+        <Button
+            android:text="Team 13"
+            android:textSize="10pt"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_weight="0.05"
+            android:id="@+id/team13"
+            />
+        <Button
+            android:text="Team 14"
+            android:textSize="10pt"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_weight="0.05"
+            android:id="@+id/team14"
+            />
+        <Button
+            android:text="Team 15"
+            android:textSize="10pt"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_weight="0.05"
+            android:id="@+id/team15"
+            />
+        <Button
+            android:text="Team 16"
+            android:textSize="10pt"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_weight="0.05"
+            android:id="@+id/team16"
+            />
+        <Button
+            android:text="Team 17"
+            android:textSize="10pt"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_weight="0.05"
+            android:id="@+id/team17"
+            />
+        <Button
+            android:text="Team 18"
+            android:textSize="10pt"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_weight="0.05"
+            android:id="@+id/team18"
+            />
+        <Button
+            android:text="Team 19"
+            android:textSize="10pt"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_weight="0.05"
+            android:id="@+id/team19"
+            />
+    </LinearLayout>
 
-</android.support.constraint.ConstraintLayout>
+
+</ScrollView>
