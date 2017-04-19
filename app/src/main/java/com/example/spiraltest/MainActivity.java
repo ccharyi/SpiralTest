@@ -1,10 +1,12 @@
-package com.example.swingtest;
+package com.example.spiraltest;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+
+import com.example.spiraltest.R;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -40,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent intent = new Intent("com.example.swingtest.Team1");
+                        Intent intent = new Intent("Team1");
                         startActivity(intent);
                     }
                 }
@@ -49,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent intent = new Intent("com.example.swingtest.Team2");
+                        Intent intent = new Intent("Team2");
                         startActivity(intent);
                     }
                 }
@@ -58,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent intent = new Intent("com.example.swingtest.Team3");
+                        Intent intent = new Intent("Team3");
                         startActivity(intent);
                     }
                 }
@@ -67,7 +69,7 @@ public class MainActivity extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent intent = new Intent("com.example.swingtest.Team4");
+                        Intent intent = new Intent("Team4");
                         startActivity(intent);
                     }
                 }
@@ -76,7 +78,7 @@ public class MainActivity extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent intent = new Intent("com.example.swingtest.Team5");
+                        Intent intent = new Intent("Team5");
                         startActivity(intent);
                     }
                 }
@@ -85,7 +87,7 @@ public class MainActivity extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent intent = new Intent("com.example.swingtest.Team6");
+                        Intent intent = new Intent("Team6");
                         startActivity(intent);
                     }
                 }
@@ -94,7 +96,7 @@ public class MainActivity extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent intent = new Intent("com.example.swingtest.Team7");
+                        Intent intent = new Intent("Team7");
                         startActivity(intent);
                     }
                 }
@@ -103,7 +105,7 @@ public class MainActivity extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent intent = new Intent("com.example.swingtest.Team8");
+                        Intent intent = new Intent("Team8");
                         startActivity(intent);
                     }
                 }
@@ -112,7 +114,7 @@ public class MainActivity extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent intent = new Intent("com.example.swingtest.Team9");
+                        Intent intent = new Intent("Team9");
                         startActivity(intent);
                     }
                 }
@@ -121,7 +123,7 @@ public class MainActivity extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent intent = new Intent("com.example.swingtest.Team10");
+                        Intent intent = new Intent("Team10");
                         startActivity(intent);
                     }
                 }
@@ -130,7 +132,7 @@ public class MainActivity extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent intent = new Intent("com.example.swingtest.Team11");
+                        Intent intent = new Intent("Team11");
                         startActivity(intent);
                     }
                 }
@@ -139,7 +141,7 @@ public class MainActivity extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent intent = new Intent("com.example.swingtest.Team12");
+                        Intent intent = new Intent("Team12");
                         startActivity(intent);
                     }
                 }
@@ -148,7 +150,7 @@ public class MainActivity extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent intent = new Intent("com.example.swingtest.Team13");
+                        Intent intent = new Intent("Team13");
                         startActivity(intent);
                     }
                 }
@@ -157,7 +159,7 @@ public class MainActivity extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent intent = new Intent("com.example.swingtest.Team14");
+                        Intent intent = new Intent("Team14");
                         startActivity(intent);
                     }
                 }
@@ -166,7 +168,7 @@ public class MainActivity extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent intent = new Intent("com.example.swingtest.Team15");
+                        Intent intent = new Intent("Team15");
                         startActivity(intent);
                     }
                 }
@@ -175,7 +177,7 @@ public class MainActivity extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent intent = new Intent("com.example.swingtest.Team16");
+                        Intent intent = new Intent("Team16");
                         startActivity(intent);
                     }
                 }
@@ -184,7 +186,7 @@ public class MainActivity extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent intent = new Intent("com.example.swingtest.Team17");
+                        Intent intent = new Intent("Team17");
                         startActivity(intent);
                     }
                 }
@@ -193,7 +195,7 @@ public class MainActivity extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent intent = new Intent("com.example.swingtest.Team18");
+                        Intent intent = new Intent("Team18");
                         startActivity(intent);
                     }
                 }
@@ -202,7 +204,7 @@ public class MainActivity extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent intent = new Intent("com.example.swingtest.Team19");
+                        Intent intent = new Intent("Team19");
                         startActivity(intent);
                     }
                 }

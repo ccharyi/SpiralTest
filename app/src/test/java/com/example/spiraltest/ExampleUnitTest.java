@@ -1,4 +1,4 @@
-package com.example.swingtest;
+package com.example.spiraltest;
 
 import org.junit.Test;
 

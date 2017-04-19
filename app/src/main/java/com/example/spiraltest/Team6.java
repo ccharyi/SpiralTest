@@ -1,13 +1,15 @@
-package com.example.swingtest;
+package com.example.spiraltest;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class Team14 extends AppCompatActivity {
+import com.example.spiraltest.R;
+
+public class Team6 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_team14);
+        setContentView(R.layout.activity_team6);
     }
 }

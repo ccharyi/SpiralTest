@@ -4,6 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.swingtest.Team15">
+    tools:context="com.example.spiraltest.com.example.spiraltest.Team15">
 
 </android.support.constraint.ConstraintLayout>

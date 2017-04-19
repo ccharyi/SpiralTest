@@ -1,7 +1,9 @@
-package com.example.swingtest;
+package com.example.spiraltest;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.example.spiraltest.R;
 
 public class Team9 extends AppCompatActivity {
 
