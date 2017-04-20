@@ -32,6 +32,12 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".Team2DrawingActivity"
+            android:label="DrawingActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Team2PracticeSpiral" />
+        <activity android:name=".Team2SpiralResults" />
         <activity android:name="com.example.spiraltest.Team3" android:label="@string/team3">
             <intent-filter>
                 <action android:name="com.example.spiraltest.Team3" />
