@@ -94,28 +94,12 @@
             android:id="@+id/team10"
             />
         <Button
-            android:text="Team 11"
-            android:textSize="10pt"
-            android:layout_height="wrap_content"
-            android:layout_width="match_parent"
-            android:layout_weight="0.05"
-            android:id="@+id/team11"
-            />
-        <Button
             android:text="Team 12"
             android:textSize="10pt"
             android:layout_height="wrap_content"
             android:layout_width="match_parent"
             android:layout_weight="0.05"
             android:id="@+id/team12"
-            />
-        <Button
-            android:text="Team 13"
-            android:textSize="10pt"
-            android:layout_height="wrap_content"
-            android:layout_width="match_parent"
-            android:layout_weight="0.05"
-            android:id="@+id/team13"
             />
         <Button
             android:text="Team 14"
@@ -148,14 +132,6 @@
             android:layout_width="match_parent"
             android:layout_weight="0.05"
             android:id="@+id/team17"
-            />
-        <Button
-            android:text="Team 18"
-            android:textSize="10pt"
-            android:layout_height="wrap_content"
-            android:layout_width="match_parent"
-            android:layout_weight="0.05"
-            android:id="@+id/team18"
             />
         <Button
             android:text="Team 19"
