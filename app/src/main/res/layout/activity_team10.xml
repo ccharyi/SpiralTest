@@ -1,9 +1,102 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="com.example.spiraltest.Team10">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/activity_spiral"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:paddingBottom="@dimen/activity_vertical_margin"
+android:paddingLeft="@dimen/activity_horizontal_margin"
+android:paddingRight="@dimen/activity_horizontal_margin"
+android:paddingTop="@dimen/activity_vertical_margin"
+android:background="@drawable/team10src_img_sub_blank"
+tools:context="com.example.spiraltest.Team10">
 
-</android.support.constraint.ConstraintLayout>
+<Button
+    android:text="Start!"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/start_but"
+    android:onClick="begin"
+
+    android:minWidth="32dp"
+    android:minHeight="32dp"
+    android:textColor="#FFFFFF"
+    android:background="@drawable/team10buttonshape"
+    android:shadowColor="#676980"
+    android:shadowDx="0"
+    android:shadowDy="0"
+    android:layout_centerVertical="true"
+    android:layout_centerHorizontal="true" />
+
+<Button
+    android:text="Save Spiral"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/button3"
+    android:onClick="saveSpiral"
+    android:visibility="invisible"
+
+
+    android:minWidth="32dp"
+    android:minHeight="32dp"
+    android:textColor="#FFFFFF"
+    android:background="@drawable/team10buttonshape"
+    android:shadowColor="#676980"
+    android:shadowDx="0"
+    android:shadowDy="0"
+    android:layout_below="@+id/textView"
+    android:layout_marginTop="427dp" />
+
+<Button
+    android:text="Next trial"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/next_but"
+    android:onClick="next"
+    android:visibility="invisible"
+
+
+    android:minWidth="32dp"
+    android:minHeight="32dp"
+    android:textColor="#FFFFFF"
+    android:background="@drawable/team10buttonshape"
+    android:shadowColor="#676980"
+    android:shadowDx="0"
+    android:shadowDy="0"
+    android:layout_below="@+id/textView"
+    android:layout_alignParentRight="true"
+    android:layout_marginTop="427dp" />
+
+<TextView
+    android:text="Trace the spiral"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/textView"
+    android:textSize="8pt"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    android:visibility="invisible"
+    android:bufferType="editable"/>
+
+<ImageView
+    android:layout_width="300dp"
+    android:layout_height="300dp"
+    android:id="@+id/image_view"
+    android:layout_below="@+id/textView"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="50dp"
+    android:background="@drawable/team10crop_spiral_trans" />
+
+<view
+    android:layout_width="300dp"
+    android:layout_height="300dp"
+    class="com.example.spiraltest.Team10DrawView"
+    android:id="@+id/draw_view"
+    android:layout_alignTop="@+id/image_view"
+    android:layout_alignLeft="@+id/image_view"
+    android:visibility="invisible" />
+
+
+
+</RelativeLayout>
