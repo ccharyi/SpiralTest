@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_trace"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.spiraltest.Team7Trace">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/trace_top_linear_layout"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+            <TextView
+                android:text="@string/team7_timer_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView"
+                android:textSize="@dimen/team7_timer_size"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="center"
+                />
+
+            <Chronometer
+                android:countDown="false"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/timer_object"
+                android:textSize="@dimen/team7_timer_size"
+                android:layout_below="@+id/textView"
+                android:layout_centerHorizontal="true" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/trace_bottom_linear_layout"
+            android:gravity="center"
+            android:layout_below="@id/trace_top_linear_layout">
+
+            <Button
+                android:text="@string/team7_start_timer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/start_button"
+                android:onClick="startTimer"
+                android:background="@color/colorAccent"/>
+
+            <Button
+                android:text="@string/team7_stop_timer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/stop_button"
+                android:onClick="stopTimer"
+                android:background="@color/colorAccent"/>
+        </LinearLayout>
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/timer_object"
+            android:id="@+id/trace_frame_layout">
+
+            <!--<ImageView-->
+
+            <!--android:layout_width="300dp"-->
+            <!--android:layout_height="300dp"-->
+            <!--android:foregroundGravity="center"-->
+            <!--android:background = "@drawable/ic_spiral_svg2"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:layout_centerHorizontal="true" />-->
+
+            <com.example.spiraltest.Team7DrawView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/trace_draw_view"/>
+        </FrameLayout>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
