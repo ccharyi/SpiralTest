@@ -1,6 +1,9 @@
 package com.example.spiraltest;
 
+import android.content.DialogInterface;
 import android.content.Intent;
+import android.os.Handler;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -69,8 +72,26 @@ public class MainActivity extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent intent = new Intent("com.example.spiraltest.Team4");
-                        startActivity(intent);
+                        AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
+                        builder.setTitle("Spiral Test Instructions");
+                        builder.setMessage("When the countdown completes, use your LEFT hand to trace the spiral" +
+                                " that appears on the screen. After the first round ends, repeat this " +
+                                "process with your RIGHT hand.");
+                        builder.setPositiveButton("Okay",new DialogInterface.OnClickListener() {
+                            public void onClick(DialogInterface dialog, int id) {
+                                // if this button is clicked, close
+                                // current activity
+                                new Handler().postDelayed(new Runnable() {
+                                    @Override
+                                    public void run() {
+                                        Intent intent = new Intent("com.example.spiraltest.Team4");
+                                        startActivity(intent);
+                                    }
+                                }, 50);
+                            }
+                        });
+                        AlertDialog alertDialog = builder.create();
+                        alertDialog.show();
                     }
                 }
         );
