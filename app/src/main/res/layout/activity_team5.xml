@@ -1,9 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    android:fillViewport="true"
     tools:context="com.example.spiraltest.Team5">
 
-</android.support.constraint.ConstraintLayout>
+    <TextView
+        android:id="@+id/spiralTestLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingTop="10dp"
+        android:paddingBottom="20dp"
+        android:textStyle="bold"
+        android:textSize="35dp"
+        android:text="@string/team5_spiralTestLabel"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:layout_below="@id/spiralTestLabel">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+            <!--
+                        <Button
+                            android:id="@+id/tapInstructionsBtn"
+                            android:layout_width="@dimen/menuBtnWidth"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="20dp"
+                            android:textSize="@dimen/textSize"
+                            android:text="@string/instructionsLabel"/>-->
+
+            <Button
+                android:id="@+id/spiralTakeTestBtn"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:textSize="35dp"
+                android:text="@string/team5_takeTestLabel"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

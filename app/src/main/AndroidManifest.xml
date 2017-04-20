@@ -75,6 +75,9 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".Team5SpiralTestMain"
+            android:label="Spiral Test" />
         <activity android:name="com.example.spiraltest.Team6" android:label="@string/team6">
             <intent-filter>
                 <action android:name="com.example.spiraltest.Team6" />
