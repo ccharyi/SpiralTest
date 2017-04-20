@@ -10,19 +10,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="892eb63c-96da-45be-9b7b-39d136716181" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/spiraltest/Team5DrawingView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/spiraltest/Team5SpiralTestMain.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_team5_spiral_main.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/spiraltest/Team6SpiralView.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/spiraltest/Team5.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/spiraltest/Team5.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_team5.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_team5.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/spiraltest/Team6.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/spiraltest/Team6.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_team6.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_team6.xml" />
     </list>
     <ignored path="SwingTest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -82,13 +78,60 @@
       <file leaf-file-name="activity_team5_spiral_main.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_team5_spiral_main.xml">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="390">
+=======
+            <state relative-caret-position="442">
+>>>>>>> e8f706ff57ba805ea334454b6f83211271d411a8
               <caret line="26" column="44" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
               <folding />
             </state>
           </provider>
           <provider editor-type-id="android-designer2">
             <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Team6.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/spiraltest/Team6.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="40" column="30" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1229#1803#0" expanded="true" />
+                <element signature="e#1802#1803#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_team6.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_team6.xml">
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="173">
+              <caret line="55" column="47" selection-start-line="55" selection-start-column="47" selection-end-line="55" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Team6SpiralView.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/spiraltest/Team6SpiralView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2044">
+              <caret line="214" column="68" selection-start-line="214" selection-start-column="68" selection-end-line="214" selection-end-column="68" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#7642#7888#0" expanded="true" />
+                <element signature="e#7887#7888#0" expanded="true" />
+                <element signature="e#7975#8219#0" expanded="true" />
+                <element signature="e#8218#8219#0" expanded="true" />
+              </folding>
+            </state>
           </provider>
         </entry>
       </file>
@@ -129,6 +172,7 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="activity_team4.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_team4.xml">
           <provider selected="true" editor-type-id="text-editor">
@@ -177,6 +221,8 @@
           </provider>
         </entry>
       </file>
+=======
+>>>>>>> e8f706ff57ba805ea334454b6f83211271d411a8
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -1997,11 +2043,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_team16.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_team17.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_team18.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_team19.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_team6.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_team7.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_team8.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_team9.xml" />
@@ -2052,6 +2095,9 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/spiraltest/Team5DrawingView.java" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_team5_spiral_main.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/spiraltest/Team6.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/spiraltest/Team6SpiralView.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_team6.xml" />
       </list>
     </option>
   </component>
@@ -2591,6 +2637,33 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/spiraltest/Team1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1176#1177#0" expanded="true" />
+            <element signature="e#1210#1211#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/spiraltest/Team1View.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-401">
+          <caret line="200" column="25" selection-start-line="200" selection-start-column="25" selection-end-line="200" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1382#1389#0" expanded="true" />
+            <element signature="e#1445#1452#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+>>>>>>> e8f706ff57ba805ea334454b6f83211271d411a8
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2177">
@@ -3106,13 +3179,55 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="240">
           <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+=======
+        <state relative-caret-position="442">
+          <caret line="26" column="44" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
+>>>>>>> e8f706ff57ba805ea334454b6f83211271d411a8
           <folding />
         </state>
       </provider>
       <provider editor-type-id="android-manifest">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/spiraltest/Team6SpiralView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2044">
+          <caret line="214" column="68" selection-start-line="214" selection-start-column="68" selection-end-line="214" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#7642#7888#0" expanded="true" />
+            <element signature="e#7887#7888#0" expanded="true" />
+            <element signature="e#7975#8219#0" expanded="true" />
+            <element signature="e#8218#8219#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/spiraltest/Team6.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="40" column="30" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1229#1803#0" expanded="true" />
+            <element signature="e#1802#1803#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_team6.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="55" column="47" selection-start-line="55" selection-start-column="47" selection-end-line="55" selection-end-column="47" />
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>
