@@ -19,6 +19,8 @@
     <string name="team3_instructions">"For this test, you will need to lay your phone flat on a surface.  You will then be asked to trace a spiral with your index finger. Please choose a hand to start with"</string>
     <string name="team4">Team 4</string>
     <string name="team5">Team 5</string>
+    <string name="team5_spiralTestLabel">Spiral Test</string>
+    <string name="team5_takeTestLabel">Take Test</string>
     <string name="team6">Team 6</string>
     <string name="team7">Team 7</string>
     <string name="team8">Team 8</string>
