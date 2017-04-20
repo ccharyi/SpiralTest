@@ -11,21 +11,25 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.example.spiraltest.MainActivity">
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.spiraltest.Team1" android:label="@string/team1">
+        <activity
+            android:name=".Team1"
+            android:label="@string/team1">
             <intent-filter>
                 <action android:name="com.example.spiraltest.Team1" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.spiraltest.Team2" android:label="@string/team2">
+        <activity
+            android:name=".Team2"
+            android:label="@string/team2">
             <intent-filter>
                 <action android:name="com.example.spiraltest.Team2" />
 
@@ -38,7 +42,9 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".Team2PracticeSpiral" />
         <activity android:name=".Team2SpiralResults" />
-        <activity android:name="com.example.spiraltest.Team3" android:label="@string/team3"
+        <activity
+            android:name=".Team3"
+            android:label="@string/team3"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <intent-filter>
                 <action android:name="com.example.spiraltest.Team3" />
@@ -49,130 +55,163 @@
         <activity
             android:name=".Team3TracerActivity"
             android:theme="@style/AppTheme.Fullscreen" />
-
-        <activity android:name=".Team3PlotActivity" >
+        <activity android:name=".Team3PlotActivity">
             <intent-filter android:label="@string/app_name">
                 <action android:name="android.intent.action.VIEW" />
+
                 <category android:name="android.intent.category.DEFAULT" />
+
                 <data android:scheme="file" />
                 <data android:mimeType="text/plain" />
                 <data android:pathPattern="user\\.properties" />
             </intent-filter>
         </activity>
-
         <activity android:name=".Team3Settings" />
-        <activity android:name="com.example.spiraltest.Team4" android:label="@string/team4">
+        <activity
+            android:name=".Team4"
+            android:label="@string/team4">
             <intent-filter>
                 <action android:name="com.example.spiraltest.Team4" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.spiraltest.Team5" android:label="@string/team5">
+        <activity
+            android:name=".Team5"
+            android:label="@string/team5">
             <intent-filter>
                 <action android:name="com.example.spiraltest.Team5" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.spiraltest.Team6" android:label="@string/team6">
+        <activity
+            android:name=".Team6"
+            android:label="@string/team6">
             <intent-filter>
                 <action android:name="com.example.spiraltest.Team6" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.spiraltest.Team7" android:label="@string/team7">
+        <activity
+            android:name=".Team7"
+            android:label="@string/team7">
             <intent-filter>
                 <action android:name="com.example.spiraltest.Team7" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.spiraltest.Team8" android:label="@string/team8">
+        <activity
+            android:name=".Team8"
+            android:label="@string/team8">
             <intent-filter>
                 <action android:name="com.example.spiraltest.Team8" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.spiraltest.Team9" android:label="@string/team9">
+        <activity
+            android:name=".Team9"
+            android:label="@string/team9">
             <intent-filter>
                 <action android:name="com.example.spiraltest.Team9" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.spiraltest.Team10" android:label="@string/team10">
+        <activity
+            android:name=".Team10"
+            android:label="@string/team10">
             <intent-filter>
                 <action android:name="com.example.spiraltest.Team10" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.spiraltest.Team11" android:label="@string/team11">
+        <activity
+            android:name=".Team11"
+            android:label="@string/team11">
             <intent-filter>
                 <action android:name="com.example.spiraltest.Team11" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.spiraltest.Team12" android:label="@string/team12">
+        <activity
+            android:name=".Team12"
+            android:label="@string/team12">
             <intent-filter>
                 <action android:name="com.example.spiraltest.Team12" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.spiraltest.Team13" android:label="@string/team13">
+        <activity
+            android:name=".Team13"
+            android:label="@string/team13">
             <intent-filter>
                 <action android:name="com.example.spiraltest.Team13" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.spiraltest.Team14" android:label="@string/team14">
+        <activity
+            android:name=".Team14"
+            android:label="@string/team14">
             <intent-filter>
                 <action android:name="com.example.spiraltest.Team14" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.spiraltest.Team15" android:label="@string/team15">
+        <activity
+            android:name=".Team15"
+            android:label="@string/team15">
             <intent-filter>
                 <action android:name="com.example.spiraltest.Team15" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.spiraltest.Team16" android:label="@string/team16">
+        <activity
+            android:name=".Team16"
+            android:label="@string/team16">
             <intent-filter>
                 <action android:name="com.example.spiraltest.Team16" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.spiraltest.Team17" android:label="@string/team17">
+        <activity
+            android:name=".Team17"
+            android:label="@string/team17">
             <intent-filter>
                 <action android:name="com.example.spiraltest.Team17" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.spiraltest.Team18" android:label="@string/team18">
+        <activity
+            android:name=".Team18"
+            android:label="@string/team18">
             <intent-filter>
                 <action android:name="com.example.spiraltest.Team18" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.spiraltest.Team19" android:label="@string/team19">
+        <activity
+            android:name=".Team19"
+            android:label="@string/team19">
             <intent-filter>
                 <action android:name="com.example.spiraltest.Team19" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+        <activity android:name=".Team16Spiral"></activity>
     </application>
 
 </manifest>
