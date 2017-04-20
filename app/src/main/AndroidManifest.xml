@@ -104,6 +104,8 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+        <activity android:name=".Team7Results" />
+        <activity android:name=".Team7Trace" />
         <activity
             android:name=".Team8"
             android:label="@string/team8">
