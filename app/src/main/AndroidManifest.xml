@@ -136,15 +136,6 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Team11"
-            android:label="@string/team11">
-            <intent-filter>
-                <action android:name="com.example.spiraltest.Team11" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
-        <activity
             android:name=".Team12"
             android:label="@string/team12">
             <intent-filter>
@@ -194,15 +185,6 @@
             android:label="@string/team17">
             <intent-filter>
                 <action android:name="com.example.spiraltest.Team17" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".Team18"
-            android:label="@string/team18">
-            <intent-filter>
-                <action android:name="com.example.spiraltest.Team18" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>

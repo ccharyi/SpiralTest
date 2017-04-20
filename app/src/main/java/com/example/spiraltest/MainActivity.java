@@ -31,14 +31,12 @@ public class MainActivity extends AppCompatActivity {
         Button team_8 = (Button)findViewById(R.id.team8);
         Button team_9 = (Button)findViewById(R.id.team9);
         Button team_10 = (Button)findViewById(R.id.team10);
-        Button team_11 = (Button)findViewById(R.id.team11);
         Button team_12 = (Button)findViewById(R.id.team12);
         Button team_13 = (Button)findViewById(R.id.team13);
         Button team_14 = (Button)findViewById(R.id.team14);
         Button team_15 = (Button)findViewById(R.id.team15);
         Button team_16 = (Button)findViewById(R.id.team16);
         Button team_17 = (Button)findViewById(R.id.team17);
-        Button team_18 = (Button)findViewById(R.id.team18);
         Button team_19 = (Button)findViewById(R.id.team19);
 
         team_1.setOnClickListener(
@@ -149,15 +147,6 @@ public class MainActivity extends AppCompatActivity {
                     }
                 }
         );
-        team_11.setOnClickListener(
-                new View.OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-                        Intent intent = new Intent("com.example.spiraltest.Team11");
-                        startActivity(intent);
-                    }
-                }
-        );
         team_12.setOnClickListener(
                 new View.OnClickListener() {
                     @Override
@@ -208,15 +197,6 @@ public class MainActivity extends AppCompatActivity {
                     @Override
                     public void onClick(View v) {
                         Intent intent = new Intent("com.example.spiraltest.Team17");
-                        startActivity(intent);
-                    }
-                }
-        );
-        team_18.setOnClickListener(
-                new View.OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-                        Intent intent = new Intent("com.example.spiraltest.Team18");
                         startActivity(intent);
                     }
                 }
