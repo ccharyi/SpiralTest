@@ -78,14 +78,6 @@
             android:id="@+id/team8"
             />
         <Button
-            android:text="Team 8"
-            android:textSize="10pt"
-            android:layout_height="wrap_content"
-            android:layout_width="match_parent"
-            android:layout_weight="0.05"
-            android:id="@+id/team8"
-            />
-        <Button
             android:text="Team 9"
             android:textSize="10pt"
             android:layout_height="wrap_content"
