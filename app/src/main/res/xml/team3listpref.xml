@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:key="@string/team3_key_trials"
+        android:title="Number of Trials"
+        android:entries="@array/team3_num_trials"
+        android:entryValues="@array/team3_trial_values"
+        android:defaultValue="1"
+        android:summary="Choose a number of trials" />
+
+</PreferenceScreen>

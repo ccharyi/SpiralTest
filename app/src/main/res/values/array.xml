@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <string-array name="team3_num_trials" >
+        <item>1 Trial</item>
+        <item>2 Trials</item>
+        <item>3 Trials</item>
+        <item>5 Trials</item>
+    </string-array>
+
+    <string-array name="team3_trial_values" >
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>5</item>
+    </string-array>
+
+</resources>

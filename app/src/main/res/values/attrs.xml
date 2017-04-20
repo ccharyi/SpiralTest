@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Team3TracerView" >
+        <attr name="mode" format="enum">
+            <enum name="trace_cw" value="0"/>
+            <enum name="trace_ccw" value="1"/>
+            <enum name="trace_free" value="2"/>
+            <enum name="practice" value="3"/>
+        </attr>
+    </declare-styleable>
+</resources>
