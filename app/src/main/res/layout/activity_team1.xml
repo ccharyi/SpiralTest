@@ -1,9 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.spiraltest.com.example.spiraltest.Team1">
+    android:background="#fff"
+    android:orientation="horizontal"
+    android:weightSum="1"
+    android:baselineAligned="false">
+    <!--<ImageView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:id="@+id/imgInstruction"-->
+    <!--android:src="@drawable/ic_spiral"-->
+    <!--/>-->
 
-</android.support.constraint.ConstraintLayout>
+    <com.example.spiraltest.Team1View
+        android:id="@+id/drawing"
+        android:layout_width="wrap_content"
+        android:layout_height="208dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
+
+    <!--  android:background="@drawable/ic_spiral"   -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="47dp"
+        android:id="@+id/timerView"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp" />
+
+</RelativeLayout>

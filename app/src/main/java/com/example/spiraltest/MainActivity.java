@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent intent = new Intent("Team1");
+                        Intent intent = new Intent("com.example.spiraltest.Team1");
                         startActivity(intent);
                     }
                 }
@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent intent = new Intent("Team2");
+                        Intent intent = new Intent("com.example.spiraltest.Team2");
                         startActivity(intent);
                     }
                 }
@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent intent = new Intent("Team3");
+                        Intent intent = new Intent("com.example.spiraltest.Team3");
                         startActivity(intent);
                     }
                 }
@@ -69,7 +69,7 @@ public class MainActivity extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent intent = new Intent("Team4");
+                        Intent intent = new Intent("com.example.spiraltest.Team4");
                         startActivity(intent);
                     }
                 }
@@ -78,7 +78,7 @@ public class MainActivity extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent intent = new Intent("Team5");
+                        Intent intent = new Intent("com.example.spiraltest.Team5");
                         startActivity(intent);
                     }
                 }
@@ -87,7 +87,7 @@ public class MainActivity extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent intent = new Intent("Team6");
+                        Intent intent = new Intent("com.example.spiraltest.Team6");
                         startActivity(intent);
                     }
                 }
@@ -96,7 +96,7 @@ public class MainActivity extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent intent = new Intent("Team7");
+                        Intent intent = new Intent("com.example.spiraltest.Team7");
                         startActivity(intent);
                     }
                 }
@@ -105,7 +105,7 @@ public class MainActivity extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent intent = new Intent("Team8");
+                        Intent intent = new Intent("com.example.spiraltest.Team8");
                         startActivity(intent);
                     }
                 }
@@ -114,7 +114,7 @@ public class MainActivity extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent intent = new Intent("Team9");
+                        Intent intent = new Intent("com.example.spiraltest.Team9");
                         startActivity(intent);
                     }
                 }
@@ -123,7 +123,7 @@ public class MainActivity extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent intent = new Intent("Team10");
+                        Intent intent = new Intent("com.example.spiraltest.Team10");
                         startActivity(intent);
                     }
                 }
@@ -132,7 +132,7 @@ public class MainActivity extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent intent = new Intent("Team11");
+                        Intent intent = new Intent("com.example.spiraltest.Team11");
                         startActivity(intent);
                     }
                 }
@@ -141,7 +141,7 @@ public class MainActivity extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent intent = new Intent("Team12");
+                        Intent intent = new Intent("com.example.spiraltest.Team12");
                         startActivity(intent);
                     }
                 }
@@ -150,7 +150,7 @@ public class MainActivity extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent intent = new Intent("Team13");
+                        Intent intent = new Intent("com.example.spiraltest.Team13");
                         startActivity(intent);
                     }
                 }
@@ -159,7 +159,7 @@ public class MainActivity extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent intent = new Intent("Team14");
+                        Intent intent = new Intent("com.example.spiraltest.Team14");
                         startActivity(intent);
                     }
                 }
@@ -168,7 +168,7 @@ public class MainActivity extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent intent = new Intent("Team15");
+                        Intent intent = new Intent("com.example.spiraltest.Team15");
                         startActivity(intent);
                     }
                 }
@@ -177,7 +177,7 @@ public class MainActivity extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent intent = new Intent("Team16");
+                        Intent intent = new Intent("com.example.spiraltest.Team16");
                         startActivity(intent);
                     }
                 }
@@ -186,7 +186,7 @@ public class MainActivity extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent intent = new Intent("Team17");
+                        Intent intent = new Intent("com.example.spiraltest.Team17");
                         startActivity(intent);
                     }
                 }
@@ -195,7 +195,7 @@ public class MainActivity extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent intent = new Intent("Team18");
+                        Intent intent = new Intent("com.example.spiraltest.Team18");
                         startActivity(intent);
                     }
                 }
@@ -204,7 +204,7 @@ public class MainActivity extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent intent = new Intent("Team19");
+                        Intent intent = new Intent("com.example.spiraltest.Team19");
                         startActivity(intent);
                     }
                 }
